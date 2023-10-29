@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/estilos.css">
+  <title>Cajero Automático</title>
+</head>
+<body>
+  <h1 class="titulo-banco">Cajero Automático Banco Quintero</h1>
+  <div id="cajero-container">
+    <div id="login-container">
+      <h2>Iniciar Sesión</h2>
+      <label for="usuario">Usuario:</label>
+      <input type="text" id="usuario">
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena">
+      <button onclick="iniciarSesion()">Iniciar Sesión</button>
+    </div>
+
+    <div id="operaciones-container">
+      <h2>Operaciones</h2>
+      <button onclick="consultarSaldo()">Consultar Saldo</button>
+      <button onclick="realizarDeposito()">Realizar Depósito</button>
+      <button onclick="realizarRetiro()">Realizar Retiro</button>
+      <button onclick="realizarTransferencia()">Realizar Transferencia</button>
+      <button onclick="cerrarSesion()">Cerrar Sesión</button>
+    </div>
+
+    <div id="resultado-container">
+      <h2>Resultado</h2>
+      <p id="resultado"></p>
+    </div>  
+  
+  <script src="./main.js">
+    
+    
+
+  </script>
+</body>
+</html>
