@@ -2,7 +2,7 @@
 const usuarios = [
       { usuario: "sebastian", contrasena: "contrasena1", saldo: 1000 },
       { usuario: "anabelen", contrasena: "contrasena2", saldo: 1500 },
-      { usuario: "fabrizio", contrasena:"tutorcoder", saldo:2000}
+      { usuario: "fabricio", contrasena:"tutorcoder", saldo:2000}
     ];
 
 let usuarioActual = null;
