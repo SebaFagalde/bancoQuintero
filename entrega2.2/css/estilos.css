@@ -28,6 +28,13 @@ body {
     border-radius: 10px;
     border-style: bold;
   }
+  .titulo-cajero{
+    font-size: 55px;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   #operaciones-container {
     display: none;
     text-align: center; 
@@ -36,11 +43,12 @@ body {
   }
 
   #operaciones-container h2,
-  #resultado-container h2 {
+  #resultado-container h2,
+  #otras-operaciones-container h2{
     text-align: center;
   }
 
-  #operaciones-container button, #login-container button {
+  #operaciones-container button, #login-container button, #otras-operaciones-container button {
     font-family: "inter", sans-serif;
     font-size: 15px;
     margin: 3px;

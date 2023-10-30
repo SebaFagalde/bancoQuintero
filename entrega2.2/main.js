@@ -1,6 +1,6 @@
 
 const usuarios = [
-      { usuario: "sebastian1", contrasena: "contrasena1", saldo: 1000 },
+      { usuario: "sebastian", contrasena: "contrasena1", saldo: 1000 },
       { usuario: "anabelen", contrasena: "contrasena2", saldo: 1500 },
       { usuario: "fabrizio", contrasena:"tutorcoder", saldo:2000}
     ];
@@ -85,6 +85,10 @@ function realizarRetiro() {
     const resultadoContainer = document.getElementById("resultado");
     resultadoContainer.innerHTML = ''; 
     resultadoContainer.appendChild(resultadoParrafo);
+  }
+  function mostrarMenuOtrasOperaciones() {
+    document.getElementById("operaciones-container").style.display = "none";
+    document.getElementById("otras-operaciones-container").style.display = "block";
   }
 function cerrarSesion (){
     alert("Gracias por operar con Banco Quintero");

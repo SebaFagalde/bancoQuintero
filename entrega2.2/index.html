@@ -7,10 +7,11 @@
   <title>Cajero Automático</title>
 </head>
 <body>
-  <h1 class="titulo-banco">Cajero Automático Banco Quintero</h1>
-  <div id="cajero-container">
+  <h1 class="titulo-banco">Banco Quintero</h1>
+    <div id="cajero-container">
     <div id="login-container">
-      <h2>Iniciar Sesión</h2>
+      <h2 class="titulo-cajero">Cajero Automático</h2>
+      <h2 class="titulo-cajero">Iniciar Sesión</h2>
       <label for="usuario">Usuario:</label>
       <input type="text" id="usuario">
       <label for="contrasena">Contraseña:</label>
@@ -24,14 +25,20 @@
       <button onclick="realizarDeposito()">Realizar Depósito</button>
       <button onclick="realizarRetiro()">Realizar Retiro</button>
       <button onclick="realizarTransferencia()">Realizar Transferencia</button>
+      <!-- <button onclick="mostrarMenuOtrasOperaciones()">Otras Operaciones</button> -->
       <button onclick="cerrarSesion()">Cerrar Sesión</button>
     </div>
-
+    <!-- <div id="otras-operaciones-container" display="none">
+      <h2>Otras Operaciones</h2>
+      <button onclick="mostrarPagoDeServicios()">Pago de Servicios</button>
+      <button onclick="mostrarPrestamosPersonales()">Préstamos Personales</button>
+      <button onclick="mostrarAdherirDebitoAutomatico()">Adherir Pagos a Débito Automático</button>
+    </div> -->
     <div id="resultado-container">
       <h2>Resultado</h2>
       <p id="resultado"></p>
     </div>  
-  
+    
   <script src="./main.js">
     
     
