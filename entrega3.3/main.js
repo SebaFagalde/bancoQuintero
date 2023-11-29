@@ -23,8 +23,7 @@ function iniciarSesion() {
   const usuarioEncontrado = usuarios.find(u => u.usuario === usuario && u.contrasena === contrasena);
 
   if (usuarioEncontrado) {
-    // Almacenar usuario en sesión
-    localStorage.setItem('usuarioEnSesion', JSON.stringify(usuarioEncontrado));
+       localStorage.setItem('usuarioEnSesion', JSON.stringify(usuarioEncontrado));
 
     document.getElementById("login-container").style.display = "none";
     document.getElementById("operaciones-container").style.display = "block";
@@ -53,7 +52,6 @@ function cerrarSesion() {
 }
 
 function actualizarHistorial(historial) {
-  // Actualizar la interfaz con el nuevo historial de transacciones
   const historialList = document.getElementById("historial-list");
   historialList.innerHTML = '';
 
