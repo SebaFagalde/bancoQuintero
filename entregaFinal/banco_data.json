@@ -1,0 +1,24 @@
+[
+    {
+      "usuario": "sebastian",
+      "contrasena": "1234",
+      "saldo": 21000,
+      "historialTransacciones": [],
+      "historialTransferencias": []
+    },
+    {
+      "usuario": "anabelen",
+      "contrasena": "contrasena2",
+      "saldo": 31500,
+      "historialTransacciones": [],
+      "historialTransferencias": []
+    },
+    {
+      "usuario": "fabricio",
+      "contrasena": "tutorcoder",
+      "saldo": 32000,
+      "historialTransacciones": [],
+      "historialTransferencias": []
+    }
+  ]
+  
